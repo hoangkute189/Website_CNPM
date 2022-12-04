@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #222;
+}
+
+
+
+/* Menu */
+.menu{
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/temp.jpg);
+	background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+
+.navbar{
+    text-decoration: none;
+    color: #fff !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    transition: 0.4s ease-in-out !important;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+
+/* ? */
+.navbar-light .navbar-brand {
+    color: #ff7200;
+}
+
+.show{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    transition: 0.4s ease-in-out !important;
+}
+.navbar li a:hover {
+    color: #ff7200 !important;
+}
+
+.dropdown-menu{
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%) !important;
+}
+
+
+.navbar-brand{
+    color: #ff7200 !important;
+    font-size: 35px !important;
+    font-family: Arial !important;
+}
+
+ul{
+    float: left;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+/* form-area */
+
+.form-area{
+    background: #fff;
+}

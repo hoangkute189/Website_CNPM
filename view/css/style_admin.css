@@ -1,0 +1,68 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #222;
+    background: rgb(200, 198, 198);
+}
+
+.container-fluid{
+    width: 90%;
+    background: white;
+    padding-right: 10px;
+    padding-left: 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.navbar{
+    text-decoration: none;
+    color: #fff !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    transition: 0.4s ease-in-out !important;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+
+/* ? */
+.navbar-light .navbar-brand {
+    color: #ff7200;
+}
+
+
+
+.adminator{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.list-group{
+    max-height: 700px;
+    height: 600px;
+    border-right: 1px solid rgba(34, 34, 34, 0.232);
+    border-bottom: 1px solid rgba(34, 34, 34, 0.232);
+    background: rgb(250, 248, 248);
+}
+
+.list-group a{
+    width: 100%;
+    font-size: 15px;
+    border-right: none;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #ff7200;
+    border-color: #ff7200;
+}
+
+
+/* img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100% !important;
+}  */
+

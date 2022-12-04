@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #222;
+}
+
+.active{
+	border-bottom: 1px solid #ff7200 !important;
+}
+
+/* Menu */
+.menu{
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../images/temp.jpg);
+	background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+.navbar{
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    width: 100%;
+    height: 75px;
+    margin: auto;
+}
+
+.show{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-family: Arial !important;
+    font-weight: bold !important;
+    transition: 0.4s ease-in-out !important;
+}
+.navbar li a:hover {
+    color: #ff7200 !important;
+}
+
+.dropdown-menu{
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%) !important;
+}
+
+
+.navbar-brand{
+    color: #ff7200 !important;
+    font-size: 35px !important;
+    font-family: Arial !important;
+}
+
+ul{
+    float: left;
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+
+.content-menu{
+	text-align: center;
+	margin-top: 100px;
+	color: #fff;
+}
+
+h1{
+	font-size: 400%;
+}
+
+h2{
+	font-size: 200%;
+}
+
+.title-name{
+	color:#fff;
+}
+
+/* content */
+.content{
+    padding: 20px;
+}
+
+
+/* New item */
+.new-item{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.new-item h3{
+    padding-left: 0px;
+    font-size: 200%;
+    color: #041738;
+}
+
+
+
+/* icon */
+
+.fa-map-marker-alt{
+    color: red;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.fa-bed, .fa-building, .fa-arrows-alt{
+    color: #0b5b89;
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+
+.fa-map{
+    color: #0b5b89;
+    font-size: 300%;
+}
+
+.fa-phone{
+    color: #0b5b89;
+    font-size: 300%;
+}
+
+.fa-envelope{
+    color: #0b5b89;
+    font-size: 300%;
+}
+
+
+/* footer */
+
+footer{
+    background: linear-gradient(to top, rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%), url(../images/footer.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+}
+
+hr{
+    background: #fff;
+}
+
+footer h5{
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+footer a{
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0.463);
+}
+
+.author{
+    color:#0b5b89;
+}
+
